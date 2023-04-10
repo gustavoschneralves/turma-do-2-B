@@ -1,14 +1,76 @@
- .cabecalho {
-      background-color: aqua;
-      color:black;
-      display: flex;
+*{
+  margin: 0;
+  padding: 0;
+}
+body{   
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+}
+.cabeçalho{
+  background-color:  #06080a;
+  color: rgb(253, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px 0;
+}  
+.logo{
+  width: 30%;
+}
+.listaitem{
+
+  display: inline-block;
+  margin: 0 16px;
+  font-size: 24px;
+}
+
+.escola-imagem{
+  width: 35%;
+}
+.escola{
+  background-image: linear-gradient(#06080a,#027091);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+}
+.escola-div{
+  width: 35%;
+}
+.titulo{
+  padding: 24px 0;
+}
+.estudantes2{
+ background-image: linear-gradient(#027091,#06080a);
  justify-content: space-around;
+ align-items: center;
+}
+.titulo-estudante{
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 65px 0;
+}
+.nome-estudantes{
+  color: aliceblue;
+}
+.estudantes2-imagem{
+  width: 200px
+}
+.icone{
+  width: 35px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+.div1{
+  text-align: center;
+      justify-content: space-around;
+
   }
-
-.cabecalho-imagem{
-width:30%;
-}
-
-"cabecalho-lista-item"{
-  display:inline-block;
-}
+.todos-estudantes{
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+  }
